@@ -38,7 +38,12 @@ a:visited {
 nav {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: flex-end; 
+}
 
-  
+footer {
+ color: white;
+  background-color: #000;
+  text-align: center;
+  border: 0px;
 }
