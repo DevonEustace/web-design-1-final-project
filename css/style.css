@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+*,*::before, *::after {
+  box-sizing: border-box;
+}
+
+header {
+   background-color: #0E1215;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+a:hover {
+  color: aqua;
+}
+
+a:focus {
+  color:cyan;
+}
+
+a:visited {
+  color:darkcyan;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+
+  
+}
